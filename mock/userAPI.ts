@@ -1,6 +1,13 @@
 const users = [
   { name: 'Umi', nickName: 'U', gender: 'MALE' },
   { name: 'Fish', nickName: 'B', gender: 'FEMALE' },
+  { name: 'MINI', nickName: 'A', gender: 'FEMALF' },
+  { name: 'JACK', nickName: 'C', gender: 'FEMALH' },
+  { name: 'JASON', nickName: 'E', gender: 'FEMALJ' },
+  { name: 'FishA', nickName: 'D', gender: 'FEMALK' },
+  { name: 'FishC', nickName: 'G', gender: 'FEMALL' },
+  { name: 'FishB', nickName: 'Y', gender: 'FEMALM' },
+  { name: 'FishD', nickName: 'X', gender: 'FEMALN' },
 ];
 
 export default {
