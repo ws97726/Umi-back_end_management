@@ -18,6 +18,7 @@ import { useState } from 'react';
 import { history } from '@umijs/max';
 import cookieUtils from '@/utils/cookieUtils';
 
+
 type LoginType = 'phone' | 'account';
 
 const iconStyles: CSSProperties = {
