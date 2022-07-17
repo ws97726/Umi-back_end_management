@@ -37,6 +37,12 @@ export default [
                 ]
             },
             {
+                name: '组件封装',
+                path: '/hoc',
+                component: './Hoc',
+                icon: 'PieChartOutlined',
+            },
+            {
                 path: '/*',
                 component: './ResultPage/404'
             }
