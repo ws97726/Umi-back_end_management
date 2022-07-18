@@ -1,4 +1,4 @@
-import Transfer from '@/pages/Hoc/Component/Transfer';
+import Transfer from './Component/Transfer';
 import { Button, Form } from 'antd';
 import Hoc from './Hoc';
 

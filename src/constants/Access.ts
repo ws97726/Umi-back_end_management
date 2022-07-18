@@ -4,7 +4,8 @@ export const AuthList = [
     '/home',
     '/test',
     '/test/testList',
-    '/hoc'
+    '/assembly',
+    '/algorithm'
     // '/access',
     // '/btn',
 ];

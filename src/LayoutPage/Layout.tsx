@@ -1,6 +1,11 @@
 import { useEffect, useState } from 'react';
 import { history, useAccess, Outlet, useLocation, useAppData, Access } from '@umijs/max';
-import { HomeOutlined, UserOutlined, PieChartOutlined } from '@ant-design/icons';
+import {
+  HomeOutlined,
+  UserOutlined,
+  PieChartOutlined,
+  FormOutlined
+} from '@ant-design/icons';
 import { MenuDataItem, ProLayout, WaterMark } from '@ant-design/pro-components';
 import { Avatar, Button, Descriptions, Result, Space, } from 'antd';
 import { loopFilterRoute } from '@/utils/Access';
@@ -25,6 +30,7 @@ export default () => {
     home: <HomeOutlined />,
     PieChartOutlined: <PieChartOutlined />,
     UserOutlined: <UserOutlined />,
+    FormOutlined: <FormOutlined />,
   }
   const loopMenuItem = (menus: MenuDataItem[]): MenuDataItem[] =>
     menus.map(({ icon, children, ...item }, index: number) => {
