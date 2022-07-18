@@ -38,9 +38,15 @@ export default [
             },
             {
                 name: '组件封装',
-                path: '/hoc',
-                component: './Hoc',
+                path: '/assembly',
+                component: './Assembly',
                 icon: 'PieChartOutlined',
+            },
+            {
+                name: '算法题',
+                path: '/algorithm',
+                component: './AlgorithmProblem',
+                icon: 'FormOutlined',
             },
             {
                 path: '/*',
